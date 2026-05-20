@@ -6,9 +6,10 @@
 }
 
 html, body {
-    min-width: 100vh;
-    background-color: rgba(80, 80, 80, 0.778);
+    min-height: 100vh;
+    background-color: darkgray;
 }
+
 header {
     background-color: black;
     color: white;
@@ -18,14 +19,53 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+
 }
 
 header > p {
     padding-bottom: 50px;
 }
 
-a {
+header a, footer a {
     color: white;
-    
+    text-decoration: none;
+    font-weight: bolder;
 }
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(33, 31, 31);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgb(52, 49, 49);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
 
