@@ -17,3 +17,14 @@ header > h1 {
 header > nav > a {
     width: 90vw;
 }
+
+.menu-icon {
+    display: block;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle:checked ~ nav {
+    display: none;
+}
